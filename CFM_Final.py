@@ -23,7 +23,7 @@ endDate = "2019/01/01"
 
 # Browser : Firefox.
 driver = webdriver.Firefox()
-driver.get("https://tracks.lufthansa.com/login.jsp")
+driver.get("https://*******/login.jsp")
 time.sleep(2)
 
 # Lufthensa login.
@@ -39,7 +39,7 @@ login=driver.find_element_by_id("login-form-submit")
 login.click()
 
 #redirect in search page
-driver.get("https://tracks.lufthansa.com/secure/ConfigurePortalPages!default.jspa#view=search")
+driver.get("https://*******/secure/ConfigurePortalPages!default.jspa#view=search")
 time.sleep(2)
 
 #Month selection
@@ -77,7 +77,7 @@ newList = []
 count_list = 6
 #create excel
 # set file path
-filepath=(r"G:\Waqar FAS\Reply\SD Reports\4 Oct 2018\Nov 2018 SD Report Final Version\Dec 2018 SD Report/CFM.xlsx")
+filepath=(r"G:\Bahar FAS\Reply\SD Reports\4 Oct 2018\Nov 2018 SD Report Final Version\Dec 2018 SD Report/CFM.xlsx")
 # load demo.xlsx 
 wb=load_workbook(filepath)
 # select demo.xlsx
